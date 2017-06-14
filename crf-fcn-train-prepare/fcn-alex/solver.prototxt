@@ -1,0 +1,16 @@
+net: "train.prototxt"
+
+test_iter: 261
+test_interval: 1333
+
+base_lr: 1e-3
+lr_policy: "fixed"
+display: 50
+max_iter: 100000
+momentum: 0.99
+weight_decay: 0.0005
+snapshot: 1000
+snapshot_prefix: "models"
+solver_mode: GPU
+
+test_initialization: false
